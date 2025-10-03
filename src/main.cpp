@@ -26,9 +26,9 @@ int main(){
 	const string email = tmpEmail;
 	userName = getUsername(email);
 	
-	cout << *firstName << endl;
-	cout << *lastName << endl;
-	cout << userName << endl;
+	cout << "FirstName:" << *firstName << endl;
+	cout << "LastName:" << *lastName << endl;
+	cout << "UserName:" << userName << endl;
 
 	delete firstName; firstName = nullptr;
 	delete lastName; lastName = nullptr;
